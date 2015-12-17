@@ -72,8 +72,13 @@ nav a {
     float: left;
 }
 
+input, textarea {
+    margin-right: 0.5rem;
+}
+
 #bootstrap-override .col-sm-10 {
     white-space: nowrap;
+    margin-bottom: 0.5rem;
 }
 
 #bootstrap-override .form-group {
