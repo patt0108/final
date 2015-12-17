@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Noto+Serif);
+
+/* monochromatic colour schemes */
+
+.redMono {
+    background-color: hsl(0,100%,98%);
+}
+
+.greenMono {
+    background-color: hsl(80,100%,85%);
+}
+
+.blueMono {
+    background-color: hsl(160,100%,95%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.8rem;
+    font-family: Roboto, Tahoma, sans-serif;
+}
+
+nav, h1, h2 {
+    font-family: 'Noto Serif', Garamond, serif;
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+}
+
+#bootstrap-override img {
+    width: 100%;
+    height: auto;
+}
+
+#bootstrap-override li {
+    line-height: 2.6;
+}
+
+
+#bootstrap-override .card {
+    border: 1px solid #fff;
+}
+
+.card-deck-wrapper {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand {
+    font-size: 150%;
+}
+
+#moreInfo {
+    font-size: 175%;
+}
+
+._125 {
+    font-size: 125%;
+    margin-bottom: 2rem;
+}
+
+#bootstrap-override .form-control {
+    float: left;
+}
+
+#bootstrap-override .col-sm-10 {
+    white-space: nowrap;
+}
+
+#bootstrap-override .form-group {
+    clear: both;
+}
+
+.form-control:invalid ~ .fa-smile-o {
+    visibility: hidden;
+}
+.form-control:valid ~ .fa-smile-o {
+    color: #008000;
+    display: inline;
+}
+
+@media all and (min-width: 34rem){
+    body {
+        font-size: 1.0rem;
+    }
+
+    #bootstrap-overide li {
+        display: inline;
+    }
+}
+
+@media all and (min-width: 64rem){
+    body {
+        font-size: 1.2rem;
+    }
+}
